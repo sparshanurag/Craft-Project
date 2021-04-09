@@ -110,7 +110,7 @@ resource "aws_route_table_association" "publicassociation" {
 
 resource "aws_key_pair" "wordpresskeys" {
   key_name   = "wordpresskeys"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDhb2ERyKSJFHKGZH2lnQr8kT2w3yqp3bOehk6pBe2ffpIippIE2SVzhSFpFzEjJiFdIoorn35RmdjKCABwKqcVsYNz28ZbqXTeaRWtJAmnsQAGfmKKiSZMOFi2/BQGwaoFMRjf062kEn9pQEkfxQS7m/auJmkUxZY/MmB7Fpwz6I0EIpRH1Un4cgk6ksfyRvCTjym8R5vIRxdDJ1HgiwZbvtap8+ZA2rerv7hnO146vwSa2hfDzCLuNUVVSo6/lqiCeN4ISySiysJoS/9c+dvU8n+eOY0lU2RHcMYegKE+coaH14Fofgq2jLkI9/sG+B/OnyCSLdMu6wCBsY6ibKup root@ip-172-31-80-18.ec2.internal"
+  public_key = ""
 }
 
 #creating_asg
